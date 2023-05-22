@@ -44,6 +44,7 @@ def build_model():
     model.add(Dense(1,activation = 'sigmoid'))
     model.compile(loss="binary_crossentropy",metrics="accuracy",optimizer="adam")
     return model
+    
 
 
 
